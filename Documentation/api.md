@@ -797,10 +797,13 @@ More info:
 <div>
 <p>The <code>PodMonitor</code> custom resource definition (CRD) defines how <code>Prometheus</code> and <code>PrometheusAgent</code> can scrape metrics from a group of pods.
 Among other things, it allows to specify:
-* The pods to scrape via label selectors.
-* The container ports to scrape.
-* Authentication credentials to use.
-* Target and metric relabeling.</p>
+<ul>
+<li>The pods to scrape via label selectors.</li>
+<li>The container ports to scrape.</li>
+<li>Authentication credentials to use.</li>
+<li>Target and metric relabeling.</li>
+</ul>
+</p>
 <p><code>Prometheus</code> and <code>PrometheusAgent</code> objects select <code>PodMonitor</code> objects using label and namespace selectors.</p>
 </div>
 <table>
